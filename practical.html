@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main{
+            height: 95vh;
+            width: 100%;
+            background-image: url("image/beach.jpg");
+            border: 2px solid black;
+            background-size: cover;
+            padding: auto;
+        }
+        .box{
+            height: 85vh;
+            width: 50%;
+            margin: auto;
+            background-color: aliceblue;
+            opacity: 0.4;
+            /* border: 2px solid black; */
+            
+        }
+        .box-4{
+            height: 4vh;
+            width: 60%;
+            padding: 25px;
+            /* border: 2px solid black;  */
+        }
+        .box-5{
+            height: 6vh;
+            width: 60%;
+            margin: auto;
+            display: flex;
+            /* border: 2px solid; */
+        }
+        .name{
+            height: 6vh;
+            width: 25%;
+            text-align: center;
+            /* border: 2px solid black; */
+        }
+        .des{
+            height: 6vh;
+            width: 37%;
+            text-align: center;
+            border-bottom:2px solid rgb(93, 93, 219) ;
+            /* border: 2px solid black; */
+        }
+        #des{
+            margin-right: 5px;
+        }
+        .box-6{
+            height: 3vh;
+            width: 60%;
+            margin: auto;
+            display: flex;
+            /* border: 2px solid black; */
+        }
+        .fl{
+            height: 3vh;
+            width: 37%;
+            font-size: x-small;
+            color: rgb(93, 93, 219);
+            /* border-bottom:2px solid rgb(93, 93, 219) ; */
+            /* border: 2px solid black; */
+        }
+        .box-7{
+            height: 4vh;
+            width: 60%;
+            margin: auto;
+            display: flex;
+            /* border: 2px solid black; */
+        }
+        .phone{
+            height: 4vh;
+            width: 37%;
+            font-size: x-small;
+            color: rgb(93, 93, 219);
+            border-bottom:2px solid rgb(93, 93, 219) ;
+            /* border: 2px solid black; */
+        }
+        .box-8{
+            height: 10vh;
+            width: 60%;
+            margin: auto;
+            align-items: center;
+            display: flex;
+            /* border: 2px solid black; */
+        }
+        .box-9{
+            height: 7.5vh;
+            width: 65%;
+            margin: auto;
+            align-items: center;
+            display: flex;
+            /* border: 2px solid black; */
+        }
+        .kind{
+            height: 7.5vh;
+            width: 33%;
+            font-size: x-small;
+            margin: auto;
+            text-align: center;
+            color: rgb(93, 93, 219);
+            /* border-bottom:2px solid rgb(93, 93, 219) ; */
+            /* border: 2px solid black; */
+        }
+        .input{
+            height: 5.7vh;
+            border: none;
+            border-bottom: 2px solid rgb(93, 93, 219);
+        }
+        .box-10{
+            height:9vh;
+            width: 60%;
+            margin: auto;
+            align-items: center;
+            display: flex;
+            /* border: 2px solid black; */
+        }
+        .box-11{
+            height:9vh;
+            width: 10%;
+            margin: auto;
+            
+            align-items: center;
+            display: flex;
+            /* border: 2px solid black; */
+        }
+        .box-11 button{
+            height: 4vh;
+            width: 100%;
+            background-color:  rgb(93, 93, 219);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box" style="margin-top: 20px;">
+            <div class="box-1">
+                <center><h1 style="color: rgb(93, 93, 219);font-family: Arial, Helvetica, sans-serif;font-size: 6vh;">Reunion Form</h1></center>
+                <center><p style="color: rgb(93, 93, 219); margin-top:-35px ;">Time to rekindle good ol' memories! See you soon!    </p></center>
+            </div>
+            <center><div class="box-2" style="width: 85%;border: 1px solid blue; "></div></center>
+            <div class="box-3"><center><h1 style="font-size: large;color: rgb(93, 93, 219);">Date <b>25-06-2023</b> | Time <b>6pm onwards</b> | Address: <b>Our garage</b></h1></center></div>
+            <div class="box-4" style="color:rgb(93, 93, 219) ;"><label for="" style="color: rgb(93, 93, 219);">Would you like to join us?</label> <input type="radio" placeholder="yes" name="yes" style="color: rgb(93, 93, 219);">Yes<input type="radio" placeholder="yes" name="yes">No</div>
+            <div class="box-5">
+                <div class="name" style="color:rgb(93, 93, 219) ;font-size: large;">Name</div>
+                <div class="des" id="des"><input type="text" placeholder="-" class="input"></div>
+                <div class="des"><input type="text" placeholder="-" class="input"></div>
+            </div>
+            <div class="box-6">
+                <div class="name" style="color:rgb(93, 93, 219) ;font-size: large;"></div>
+                <div class="fl" id="des">First</div>
+                <div class="fl">Last</div>
+            </div>
+            <div class="box-7">
+                <div class="name" style="color:rgb(93, 93, 219) ;font-size: large;">Phone</div>
+                <div class="phone"></div>
+                <div class="phone"></div>
+            </div>
+            <div class="box-8">
+                <div class="meal" style="color:rgb(93, 93, 219)  ;">Your Meal Perference <input type="radio" placeholder="veg" name="veg">Vegatarian<input type="radio" placeholder="veg" name="veg">Non-Vegatarian</div>
+            </div>
+            <div class="box-9">
+                <div class="kind" style="text-align: right; font-size: 15px;">What kind of games are <br>you interested in? </div>
+                <div style="width: 67%; color: rgb(93, 93, 219) ; " >
+                    <input type="checkbox" name="check" placeholder="check">Indoor
+                    <input type="checkbox" name="check" placeholder="check">Board   
+                    <input type="checkbox" name="check" placeholder="check">Ball games
+                    <input type="checkbox" name="check" placeholder="check">Outdoor
+                </div>
+            </div>
+            <div class="box-10">
+                <div class="kind" style="text-align: right; font-size: 15px; ">Do you have any <br>questions? </div>
+                <div style="width: 67%;  height: 9vh; border: none ;">
+                    <textarea  placeholder="text" cols="40" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="box-11">
+                <button style="border: none; border-radius: 8px;">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
